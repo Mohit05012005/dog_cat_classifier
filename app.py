@@ -1,7 +1,3 @@
-import os
-os.environ["STREAMLIT_HOME"] = os.getcwd()
-
-
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
